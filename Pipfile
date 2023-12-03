@@ -5,9 +5,10 @@ name = "pypi"
 
 [packages]
 mypy = "*"
-pylint = "*"
 
 [dev-packages]
+mypip = "*"
+pylint = "*"
 
 [requires]
 python_version = "3.11"

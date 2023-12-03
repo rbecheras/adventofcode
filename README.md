@@ -14,7 +14,6 @@ Project creation (already done)
 
 ```
 pipenv --python 3.11
-pipenv install mypy pylint
 ```
 
 Install local deps
@@ -28,3 +27,5 @@ pipenv install
 To activate this project's virtualenv, run `pipenv shell`.
 
 Alternatively, run a command inside the virtualenv with `pipenv run`.
+
+Quit the virtual env with `exit` or `Ctl+D`
