@@ -10,6 +10,11 @@ Global Requirements
 pip3 install pipenv
 ```
 
+VSCode extensions
+
+- black-formatter https://marketplace.visualstudio.com/items?itemName=ms-python.black-formatter
+- python https://marketplace.visualstudio.com/items?itemName=ms-python.python (v2023.18.0, v2023.20.0 is not working)
+
 Project creation (already done)
 
 ```
