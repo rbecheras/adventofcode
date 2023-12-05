@@ -12,5 +12,13 @@ class TestMain(unittest.TestCase):
         module_dir = os.path.dirname(__file__)
         file_path = os.path.join(module_dir, "test_input.txt")
         content = main.read_file(file_path)
-        expected = "qwertyuiop\nasdfghjkl\nzxcvbnm"
+        expected = "1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet"
         self.assertEqual(content, expected)
+
+    def test_calibrate(self):
+        """Test the calibrate function"""
+        module_dir = os.path.dirname(__file__)
+        file_path = os.path.join(module_dir, "test_input.txt")
+        content = main.read_file(file_path)
+        expected = 142
+        self.assertEqual(main.calibrate(content), expected)
